@@ -5,7 +5,7 @@
 - Set currency symbol, where required on input, by using `<input data-symbol="R">`
 
 
-## Using Codable Calculator ##
+## Using Codeable Calculator ##
 - Enter **Client Budget**
 - Can use two values, seperated by "-"
 - Enter **My Rate**

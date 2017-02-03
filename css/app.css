@@ -1,0 +1,120 @@
+body {
+	padding-bottom: 20px;
+	background: rgba(34, 147, 209, 1);
+}
+
+body, label {
+	color: #fff;
+}
+
+fieldset {
+	border-bottom: 1px solid #fff;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+select, input[type="text"], input[type="number"] {
+	height: 30px !important;
+	border: 0 !important;
+}
+
+select {
+	font-size: 0.9rem;
+	padding: 0 0.5rem;
+}
+
+textarea {
+	background: rgba( 255, 255, 255, 0.65) !important;
+	border: 0;
+}
+
+.secondary {
+	background: #000 !important;
+}
+
+.secondary:hover {
+	background: #333 !important;
+}
+
+#colophon {
+	position: fixed;
+	background: rgba(255,255,255,0.7);
+	bottom: 0px;
+	left: 0;
+	width: 100%;
+	padding: 6px;
+	color: rgba(34, 147, 209, 1);
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.7rem;
+}
+
+.tabs, .tabs-content {
+	border: 0;
+	background: transparent;
+	color: #fff;
+}
+
+.tabs-title > a {
+	background: rgba(255,255,255,0.1);
+	color: #fff;
+}
+
+.tabs-title > a:hover {
+	background: rgba(255,255,255,0.2);
+	color: #fff;
+}
+
+.tabs-title > a:focus, .tabs-title > a[aria-selected='true'] {
+	background: rgba(255,255,255,0.3);
+	color: #fff;
+}
+
+.tabs-panel {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.margin-top, .margin-top-15 {
+	margin-top: 15px;
+}
+
+.margin-top-60 {
+	margin-top: 60px;
+}
+
+.margin-bottom, .margin-bottom-15  {
+	margin-bottom: 15px;
+}
+
+#response {
+	height: 1000px;
+}
+
+.usd, .symbol {
+	position: relative;
+}
+
+.usd:before, .symbol:before {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 3px;
+	left: 25px;
+	display: inline-block;
+	color: #000;
+	color: rgba(34, 147, 209, 1);
+}
+
+.usd:before {
+	content: '$';
+}
+
+.symbol:before {
+	content: attr(data-symbol);
+}
+.usd input, .symbol input {
+	padding-left: 40px;
+}

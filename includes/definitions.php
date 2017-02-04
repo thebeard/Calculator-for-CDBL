@@ -1,3 +1,3 @@
 <?php
 
-define( 'SITE_TITLE', 'Codeable Calculator' );
+define( 'SITE_TITLE', 'Calculator for CDBL' );

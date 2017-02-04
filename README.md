@@ -1,11 +1,11 @@
-# Codeable Calculator
+# Calculator for CDBL
 
 ##In the html##
 - Set local currency at `<form data-default="">`
 - Set currency symbol, where required on input, by using `<input data-symbol="R">`
 
 
-## Using Codeable Calculator ##
+## Using Calculator for CDBL ##
 - Enter **Client Budget**
 - Can use two values, seperated by "-"
 - Enter **My Rate**

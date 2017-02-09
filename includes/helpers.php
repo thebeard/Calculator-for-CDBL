@@ -14,7 +14,7 @@ function get_currencies_select() {
 	$currencies = get_currencies_json();
 	echo '<select name="currency">';
 	foreach( $currencies as $key => $currency ) {
-		echo sprintf( '<option value="%s">%s</option>', $key, $currency );
+		echo sprintf( '<option value="%s" data-symbol="%s">%s</option>', $key, $currency->symbol, $currency->name );
 	}
 	echo '</select>';
 }

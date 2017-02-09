@@ -1,6 +1,6 @@
 body {
 	padding-bottom: 20px;
-	background: rgba(34, 147, 209, 1);
+	background: #2cabe1;
 }
 
 body, label {
@@ -44,11 +44,11 @@ textarea {
 	bottom: 0px;
 	left: 0;
 	width: 100%;
-	padding: 6px;
+	padding: 8px;
 	color: rgba(34, 147, 209, 1);
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 0.7rem;
+	font-size: 0.85rem;
 }
 
 .tabs, .tabs-content {
@@ -117,4 +117,16 @@ textarea {
 }
 .usd input, .symbol input {
 	padding-left: 40px;
+}
+
+#save-button {
+	margin-top: 24px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	width: 100%;
+}
+
+hr {
+	margin-top: 4px;
+	margin-bottom: 8px;
 }
